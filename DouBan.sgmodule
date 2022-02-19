@@ -1,6 +1,6 @@
 #!name=豆瓣电影
 #!desc=Web豆瓣电影和电视剧添加便捷播放按钮
-#!system=ios
+#!time=2022.02.19
 
 [Script]
 豆瓣电影 = type=http-response,pattern=^https?:\/\/m\.douban\.com\/movie\/subject\/\d+\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/Surge/main/JavaScript/DouBan.js
